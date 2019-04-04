@@ -13,10 +13,6 @@ connect_json:
 + the advantage of this approach is you can re-use these connection settings across other blocks.
 + or leave empty and include the connect block within each servers defintion (as done below).
 
-block:
-+ the name of this block.
-+ --> dse-6.7
-
 buildFolder:
 + the choosen build folder to use.
 + this facilitates different setups for different clusters, clients, versions, settings etc.
@@ -124,7 +120,6 @@ FINALLY:
 {
   "build":{
     "connectJson":                 "",
-    "block":                       "dse-6.7",
     "buildFolder":                 "acme_preprod_6.7.0",
     "versionDse":                  "dse-6.7.0",
     "tarballDse":                  "dse-6.7.0-bin.tar.gz",
