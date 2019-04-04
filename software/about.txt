@@ -1,2 +1,2 @@
 [1] create a free account at www.datastax.com
-[2] download the tarballs for dse-6.7.x from datastax website into this folder.
+[2] download the tarballs for dse-6.7.x from datastax website into this folder
